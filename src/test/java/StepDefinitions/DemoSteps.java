@@ -1,6 +1,7 @@
 package StepDefinitions;
 
 import Modules.DemoModules;
+import Utilities.KeywordUtils;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
@@ -17,4 +18,8 @@ public class DemoSteps {
     DemoModules.validateHome();
     }
 
+    @When("Launch the desired application")
+    public void launchTheDesiredApplication() {
+        KeywordUtils.startServer();
+    }
 }
