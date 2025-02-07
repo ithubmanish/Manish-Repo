@@ -14,7 +14,7 @@
         <protocol>https</protocol>
 
         <!-- title of the document -->
-        <documentTitle>Airtel Automation Extent Report</documentTitle>
+        <documentTitle>Mobile Automation Extent Report</documentTitle>
 
         <!-- report name - displayed at top-nav -->
         <reportName>Automation Report</reportName>
